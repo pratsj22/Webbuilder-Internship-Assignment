@@ -54,15 +54,15 @@ const Content = () => {
                                     <div className="highlights-reasons">
                                         <div className='reason-title'>Why we love it</div>
                                         <div>
-                                            <img src="blueCheckmark.png" alt="" />
+                                            <img src="blueCheckMark.png" alt="" />
                                             <span>Documentation</span>
                                         </div>
                                         <div>
-                                            <img src="blueCheckmark.png" alt="" />
+                                            <img src="blueCheckMark.png" alt="" />
                                             <span>Easy Use</span>
                                         </div>
                                         <div>   
-                                            <img src="blueCheckmark.png" alt="" />
+                                            <img src="blueCheckMark.png" alt="" />
                                             <span>Out of box</span>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@ const Content = () => {
                                 <div className="rating-info"><img src="info.png" alt="" /></div>
                                 <div className="rating">{item.rating}</div>
                                 <div className="rating-tag">{item.ratingTag}</div>
-                                <div className="rating-stars"><Rating name="read-only" value={item.ratingStars} precision={0.5} size="small" readOnly /></div>
+                                <div className="rating-stars"><Rating className='stars' name="read-only" value={item.ratingStars} precision={0.5} size="small" readOnly /></div>
                             </div>
                         </div>
                         <button className="view-btn">View</button>
