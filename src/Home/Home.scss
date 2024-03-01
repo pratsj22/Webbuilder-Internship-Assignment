@@ -792,7 +792,7 @@
                         }
                     }
 
-                    @media only screen and (max-width:435px) {
+                    @media screen and (max-width:435px) {
                         width: 80px;
 
                         .rating-box {
@@ -829,7 +829,6 @@
                                 .css-1nbsiwm-MuiRating-root {
                                     font-size: 7px;
                                 }
-
                                 margin-top: -10px;
                             }
                         }
